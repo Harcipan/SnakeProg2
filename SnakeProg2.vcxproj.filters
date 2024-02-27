@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source/glad.c" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source/stb_image.cpp" />
+    <ClCompile Include="source\resource_manager.cpp" />
+    <ClCompile Include="source\sprite_renderer.cpp" />
+    <ClCompile Include="source\game.cpp" />
+    <ClCompile Include="source\texture.cpp" />
+    <ClCompile Include="source\shader.cpp" />
+    <ClCompile Include="source\game_object.cpp" />
+    <ClCompile Include="source\particle_generator.cpp" />
+    <ClCompile Include="source\snake_object.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source/headers/stb_image.h" />
+    <ClInclude Include="source\headers\Text.h" />
+    <ClInclude Include="source\headers\game.h" />
+    <ClInclude Include="source\headers\resource_manager.h" />
+    <ClInclude Include="source\headers\sprite_renderer.h" />
+    <ClInclude Include="source\headers\texture.h" />
+    <ClInclude Include="source\headers\shader.h" />
+    <ClInclude Include="source\headers\game_object.h" />
+    <ClInclude Include="source\headers\particle_generator.h" />
+    <ClInclude Include="source\headers\snake_object.h" />
+    <ClInclude Include="source\headers\random_numbers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="source\resource\textures\awesome.png" />
+    <Image Include="source\resource\textures\brick.png" />
+    <Image Include="source\resource\textures\container2.png" />
+    <Image Include="source\resource\textures\container2_specular.png" />
+    <Image Include="source\resource\textures\pop_cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\resource\shaders\text.fs" />
+    <None Include="source\resource\shaders\text.vs" />
+    <None Include="source\resource\shaders\sprite.fs" />
+    <None Include="source\resource\shaders\sprite.vs" />
+    <None Include="source\resource\shaders\particle.vs" />
+    <None Include="source\resource\shaders\particle.fs" />
+  </ItemGroup>
+</Project>
